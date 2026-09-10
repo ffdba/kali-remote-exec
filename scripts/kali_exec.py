@@ -7,7 +7,7 @@ Auth (in priority order):
   3. SSH private key via config KaliKey / --key
 
 Config file is a PowerShell-style assignment list:
-  $KaliHost = '192.168.81.130'
+  $KaliHost = '192.168.x.x'
   $KaliUser = 'kali'
   $KaliPort = '22'
   $KaliKey  = ''            # optional path to a private key

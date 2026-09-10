@@ -18,7 +18,7 @@ if ([string]::IsNullOrWhiteSpace($RemoteCommand)) {
 }
 
 if (-not $env:KALI_PASSWORD -and -not $env:KALI_KEY) {
-    Write-Warning "KALI_PASSWORD not set. For this lab you can run: `$env:KALI_PASSWORD='kali'"
+    Write-Warning "KALI_PASSWORD not set. Set it via: `$env:KALI_PASSWORD='<your-password>'"
 }
 
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
